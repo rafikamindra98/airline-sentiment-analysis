@@ -1,0 +1,17 @@
+{
+  "model_name": "TF-IDF (1-2 ngrams, 5k features) + Logistic Regression (Balanced, C=0.5)",
+  "dataset": "Twitter US Airline Sentiment (Kaggle)",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "test_accuracy": 0.7462,
+  "test_macro_f1": 0.7058,
+  "versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0"
+  }
+}
