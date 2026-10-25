@@ -9,5 +9,6 @@ data/*.csv
 data/*.zip
 *.csv
 *.zip
+!sentiment_artifacts/*.csv
 .agents/
 .claude/
